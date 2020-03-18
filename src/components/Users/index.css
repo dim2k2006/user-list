@@ -1,0 +1,70 @@
+.Users {
+
+}
+
+.Users__header,
+.Users__holder {
+  width: 100%;
+  height: 52px;
+}
+
+.Users__header {
+  position: relative;
+}
+
+.Users__holder {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 16px;
+  line-height: 1;
+  color: #000;
+  text-align: center;
+  background-color: #F1F1F1;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+.Users__list,
+.Users__item {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Users__list {
+  padding: 0 16px;
+}
+
+.Users__item {
+  display: flex;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.Users__avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.Users__avatar img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+}
+
+.Users__title {
+  padding-left: 24px;
+  font-size: 16px;
+  line-height: 1;
+  color: #000;
+}
